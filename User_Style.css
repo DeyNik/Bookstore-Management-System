@@ -1,0 +1,189 @@
+
+.title
+{
+  margin-bottom: 3rem;
+  font-size:30px;
+  font-weight:bold;
+  /* background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  ); */
+  background-size: auto auto;
+  /* background-clip: border-box; */
+  background-size: 200% auto;
+  color: #fff;
+  /* background-clip: text; */
+  /* text-fill-color: transparent; */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  /* animation: textclip 2s linear infinite; */
+}
+  
+  .feedform{
+    margin: auto !important; 
+    color: rgb(85,150,162)
+  }
+
+
+/* @keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+} */
+body{
+	background-image: radial-gradient(circle, #f38e8e, #f38e8e, #f38e8e, #f38e8e, #f38e8e, #ed8b9d, #e48bac, #d68cb8, #ae92ca, #8197ca, #5e99bb, #5596a2) !important;
+}
+
+.details{
+	border-radius:8px;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+	
+}
+table {
+border-radius:8px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+
+  text-align: left;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* .details tr:hover {background-color: gold; color:white;} */
+/* .Order_history tr:hover {background-color:#b39ddb; color:white;} */
+
+*{	
+	font-family: Trebuchet MS;
+	margin: 0;
+	padding: 0;/*
+	list-style: none;*/
+ 	 text-decoration: none;
+}
+body{
+	float:none;
+	width: 1075px;
+	margin-left:calc(( 100% - 1075px) / 2);
+	padding: 40px 0;
+	background:  #fff; 
+}
+.page-details{
+	justify-content: center;
+	align-items: center;
+}
+
+.container .title{
+	color:white;
+	font-size: 30px;
+	font-weight: 800;
+	position: relative;
+	
+}
+/* .container .title::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: -8px 0;
+	height: 3px;
+	width: 100%;
+	background: #ddd; 
+} */
+
+.container .page-details{
+	width: 1060px;
+	margin: 50px 0;
+}
+.container .page-details .hello_box{
+	width: 1060px;
+	background: rgb(61, 109, 157);	/*rgb(228, 241, 254);*/
+	padding: 8px;
+	font-size: 21px;
+	font-weight: 500;
+	color: rgb(09, 72, 136);
+}
+
+/*-------------Order History 구매기록--------------*/
+.Order_history{
+	font-size: 22px;
+	
+}
+.page_history .Order_history_table th, td {
+    padding: 25px;
+    margin-top: 10;
+  }
+
+.Order_history .Order_history_check_table::before{
+	content: '';
+	position: absolute;
+	min-width: 308px;
+	height: 3px;
+	width:870px;
+	background: #ddd;
+	margin-top: 80px;
+	margin-left: 15px;
+}
+.Order_history .button{
+	color: #fff;
+	font-weight: 900;
+	font-size: 20px;
+	background: rgb(101, 157, 226);	/*rgb(228, 241, 254);*/
+	border-radius: 6px;
+	padding: 15px 20px;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+
+.Order_history .Order_details_table{
+		border-radius:8px;
+
+    margin-top: 12px;
+    background: aliceblue;
+    background: #fff;
+    width: 1075px;
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+	font-size: 20px;
+/*    background: red;*/
+  }
+
+.Order_history .Order_details_table th {
+	
+	background: #5596a2;
+	color:white;
+	/*background: red;*/
+	border: 1px solid #ccc;
+	padding: 11px;
+  } 
+
+.Order_history .Order_details_table td {
+	border: 1px solid #ccc;
+    margin-top: 10px;
+	
+    font-size: 20px;
+  } 
+  .Order_history .Order_details_table img {
+  	width: 150px;
+  	height: 210px;
+  	margin:  -8px; 
+  	padding: 1px;
+  	border: 2px solid rgb(09, 72, 136);
+  } 
+
+
+
+
+
+
+
+
+
+
+
